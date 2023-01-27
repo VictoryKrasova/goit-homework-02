@@ -19,8 +19,7 @@ body{
 
 /* ================Header ================*/
 .menu-link {
-  font-style: normal;
-  font-weight: 500;
+   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -65,25 +64,25 @@ text-transform: uppercase;
   color: var(--color-hover);
 }
 
+.current:hover{
+  color: var(--color-hover);
+}
+
 .modal-btn{
-  display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 16px 32px;
-gap: 10px;
-width: 169px;
-height: 56px;
-left: 20px;
-top: 20px;
-background: #4D5AE5;
+  color: #FFFFFF;
+  padding: 16px 32px;
+background-color:  #4D5AE5;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
+cursor: pointer;
 }
 
 .modal-btn:hover,
 .modal-btn:focus{
   background: #404BBF;
 }
+
+
 /* ================HERO ================ */
 
 .main-header{
@@ -93,17 +92,22 @@ line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
 color: #FFFFFF;
+background-color: #2E2F42;
 }
 
-.modal-btn{
- font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-display: flex;
-align-items: center;
-letter-spacing: 0.04em;
-color: #FFFFFF;
+.modal-btn-portfolio{
+  padding: 16px 32px;
+  background-color:  #F4F4FD;
+color: #4D5AE5;
 cursor: pointer;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+
+.modal-btn-portfolio:hover,
+.modal-btn-portfolio:focus{
+background-color: #404BBF;
+color: #FFFFFF;
 }
 
 
@@ -125,10 +129,6 @@ color: #434455;
 
 /* ================What we doing========= */
 .second-header{
- width: 323px;
-height: 40px;
-left: 559px;
-top: 1016px;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
@@ -150,6 +150,8 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--prime-color-font);
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+;
 }
 
 .name-header{
@@ -169,12 +171,24 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
+.bg-color-section{
+  background-color: #F4F4FD;
+}
+
 /* ===============Footr============ */
 .footer-dcr{
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #E7E9FC;
+}
+
+.footer-color{
+  background-color: #2E2F42;;
+}
+
+.span-white{
+  color: #F4F4FD;
 }
 /* ================Sections ================ */
 
